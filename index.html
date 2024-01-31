@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game with Password</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <h1 class="text-5xl text-center	my-6 text-lime-500 ">Password Game</h1>
+        <div class="hero py-8 bg-base-200">
+                    <form class="card-body">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Password</span>
+                            </label>
+                            <input id="p1" type="password" placeholder="password" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">ReType Password</span>
+                            </label>
+                            <input id="p2" type="password" placeholder="Retype password" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control mt-6">
+                            <button id="clickButton" class="btn btn-primary" disabled>Login</button>
+                        </div>
+                    </form>                      
+        </div>
+        <section id="showInScreen">
+
+        </section>
+    </main>
+    <script src="Js/index.js"></script>
+</body>
+</html>
